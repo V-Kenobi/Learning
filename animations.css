@@ -1,0 +1,39 @@
+div{
+box-sizing: border-box;
+border: 1px solid black;
+width: 100px;
+height: 100px;
+margin: 2%;
+padding: 2%;
+display: inline-block;
+transition: 1.2s ease;
+
+}
+
+div:focus{
+background-color: #ffff00;
+
+}
+div:hover{
+width: 200px;
+background-color: #ff3ff4;
+
+}
+.animate{
+background-color: #553450;
+-webkit-transition:-webkit-transform 1s, 0.3 ;
+-webkit-border-radius: 5px;
+
+}
+.animate:hover{
+-moz-transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+transform: rotate(360deg);
+opacity: 1;/*this is full color */
+background: #1ec76e;
+width: 110px;
+height: 67px;
+
+
+}

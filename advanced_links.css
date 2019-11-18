@@ -1,0 +1,32 @@
+body{
+ font-family: "trebuchet ms", "sans-serif";
+}
+
+li{
+margin: 5px;
+}
+
+a {
+padding-left: 22px;  /* PADDING is the distace between the element and its border*/
+text-decoration:none;
+}
+
+a[href$=".org/"]{ /* $ means it will match exactly all those links that end in .org in the html*/
+background-color: #ffa836;
+}
+
+a[href$=".edu/"]{
+ background-color: #c68843;
+}
+
+a[href$=".gov/index.htm"]{
+ background-color: #a3345b;
+}
+a[href$=".org/wiki/Main_Page"]{
+ background: #31ad46;
+}
+
+a[href$=".gov/"]{
+ background: #c23f6d;
+}
+

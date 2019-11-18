@@ -1,0 +1,123 @@
+body {
+ font-family: "sans-serif", "Trebuchet MS";
+ margin: 4%;
+ font-size: 150%;
+ line-height: 150%;
+ /*background-image: url("../Kaylor/karlie.jpg");
+ background-repeat: no-repeat;
+ background-position: 45% 50%; /* First value is for horizontal position, second value is for vertical position */
+
+/* background: url("../Kaylor/karlie.jpg") 45% 50% no-repeat; /* a shortcut to put it 
+*/ 
+}
+header{
+
+     /* To add color to the header, use selector "background-color"*/
+    padding: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 3%;
+}
+
+footer {
+ line-height: 150%;
+ padding: 20px;
+ padding-bottom: -45%;
+ margin-bottom: 5%; 
+ margin-top:3%;
+ clear: both; /* Clear means you don't want anything floating around the element BOTH left and right. You can choose something not to float only
+ on the left or only on the right*/
+
+}
+
+header, footer{
+ background:#8ec9bb; /*!important; /* You always want to put a general background color, because if for
+ some reason the browser can't handle linear gradient, you want to give it something to fall back on */
+ background: -moz-linear-gradient(top, #8ec9bb 0%, #008081 100%);
+ background: -webkit-linear-gradient(top, #8ec9bb 0%, #008081 100%);
+ background: -o-linear-gradient(top, #8ec9bb 0%, #008081 100%);
+ 
+ text-align: center;
+ border-radius: 40px;
+}
+
+#progress_bar, footer{
+    text-align: left !important;
+    }
+
+p, ul{
+        text-align: justify !important;
+   
+}
+   
+h1{
+    color: #313896;
+    text-align: center;
+   }
+   
+h2{
+    color: #581815;
+    background-color:  #bc85a3;
+   
+   }
+img{
+       
+       width: 18%;
+       border-radius: 40px;
+       border-color: black;
+       border-width: 1px;
+       border-style: solid;
+
+   }
+   
+details{
+ font-style: italic;
+}
+
+summary{
+ font-style: normal;
+}
+
+section{
+ width: 30%;
+ display: inline-block;
+ float: left;
+ margin-right: 3%;
+ background-color: none;
+}
+nav{
+ text-align: center;
+ color: #ff7533;
+ font-size: 120%;
+ 
+}
+a{
+    color: #5a3825;
+    text-decoration: none;
+    
+ }
+
+ nav a {
+  display: inline;
+  text-decoration: none;
+
+ }
+
+ .half{
+ width: 45%;
+ margin-right: 2%;
+ text-align: center;
+ display:inline-block;
+ float: left;
+
+ }
+ 
+
+ .whole{
+clear: both;
+text-align: justify;
+margin-left: 3%;
+margin-right: 15%;
+ display: inline-block;
+ }
+
+/* #900c3f */

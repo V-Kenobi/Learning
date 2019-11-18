@@ -1,0 +1,23 @@
+body{
+ font-family: "sans-serif", "Trebuchet MS";
+ font-size: 145%;
+}
+
+nav a{
+text-decoration: none;
+background-color: #87ceeb;
+color: #581815;
+margin: 0.5% 0.2%;
+padding: 1%;
+}
+
+h1{
+text-align:center;
+background: #f6cfca;
+}
+p{
+ margin-top: +3.3%;
+}
+/* *{
+background:#468057; 
+} */
